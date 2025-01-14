@@ -1,0 +1,55 @@
+/* Task 14 Class Selector */
+/* Task 24 CSS Colors: Text Color */
+.last-sentence {
+    color: blueviolet;
+}
+/* Task 26 CSS Background: Background Image */
+/* Task 27 CSS Background: Background Size */
+body {
+    background-image: url(/Images/smiley.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Task 21 CSS Typography: Text Alignment */
+h1 {
+    text-align: center;
+}
+
+/* Task 15 ID Selector */
+/* Task 22 CSS Typography: Line Height */
+/* Task 25 CSS Colors: Border Color */
+#first-paragraph {
+    font-size: 1.2em;
+    
+    line-height: 1.5em;
+    border-style: dotted;
+    border-color: aqua;
+}
+
+/* Task 16 Universal Selector */
+/* Task 18 Typography: Font Family */
+* {
+
+    font-family: sans-serif;
+}
+
+/* Task 17 Grouping Selector */
+/* Task 19 Typography: Font Size */
+/* Task 20 Typography: Font Style and Weight */
+h1, p {
+    font-size: larger;
+    font-style: oblique;
+    font-weight:lighter;
+}
+
+/* Task 28 CSS Pseudo-elements: First-line */
+/* Task 23 CSS Colors: Background Color */
+h1:hover {
+    background-color: tan;
+}
+
+/* Task 29 - CSS Pseudo-elements: First-line */
+p::first-line {
+    font-weight: bold;
+}
